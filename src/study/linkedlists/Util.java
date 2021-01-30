@@ -1,8 +1,5 @@
 package study.linkedlists;
 
-import java.util.HashSet;
-import java.util.Stack;
-
 public class Util {
 
     public static void printNodes(LinkedListNode head) {

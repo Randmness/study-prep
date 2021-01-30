@@ -1,8 +1,5 @@
 package study.strings;
 
-import java.util.Arrays;
-import java.util.Locale;
-
 public class Permutation {
 
     public static void main(String[] args) {
