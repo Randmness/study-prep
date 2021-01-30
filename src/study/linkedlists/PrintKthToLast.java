@@ -1,4 +1,4 @@
-package src.study.linkedlists;
+package study.linkedlists;
 
 public class PrintKthToLast {
 

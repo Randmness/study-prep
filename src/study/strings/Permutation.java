@@ -1,4 +1,7 @@
-package src.study.strings;
+package study.strings;
+
+import java.util.Arrays;
+import java.util.Locale;
 
 public class Permutation {
 

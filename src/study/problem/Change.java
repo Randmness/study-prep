@@ -1,4 +1,4 @@
-package src.study.problem;
+package study.problem;
 
 public class Change {
 

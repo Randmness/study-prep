@@ -1,4 +1,4 @@
-package src.study.strings;
+package study.strings;
 
 import java.util.Locale;
 

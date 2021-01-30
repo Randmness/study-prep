@@ -1,4 +1,4 @@
-package src.study.linkedlists;
+package study.linkedlists;
 
 import java.util.Stack;
 
