@@ -1,4 +1,4 @@
-package study.problem;
+package study.random;
 
 public class Change {
 

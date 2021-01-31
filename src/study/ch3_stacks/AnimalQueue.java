@@ -1,4 +1,4 @@
-package study.stack;
+package study.ch3_stacks;
 
 import java.util.LinkedList;
 
@@ -10,7 +10,7 @@ public class AnimalQueue {
     public AnimalQueue() {
         dogs = new LinkedList<>();
         cats = new LinkedList<>();
-        order = 0; 
+        order = 0;
     }
 
     public void enqueue(Animal animal) {

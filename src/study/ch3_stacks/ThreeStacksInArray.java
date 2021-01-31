@@ -1,4 +1,4 @@
-package study.stack;
+package study.ch3_stacks;
 
 
 //Stack: items are added in reverse

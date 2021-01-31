@@ -1,4 +1,4 @@
-package study.linkedlists;
+package study.ch2_linkedlists;
 
 import java.util.HashSet;
 

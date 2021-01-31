@@ -1,4 +1,4 @@
-package study.linkedlists;
+package study.ch2_linkedlists;
 
 public class Util {
 

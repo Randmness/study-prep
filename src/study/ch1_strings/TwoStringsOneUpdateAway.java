@@ -1,4 +1,4 @@
-package study.strings;
+package study.ch1_strings;
 
 public class TwoStringsOneUpdateAway {
 

@@ -1,6 +1,5 @@
-package study.stack;
+package study.ch3_stacks;
 
-import java.util.EmptyStackException;
 import java.util.Stack;
 
 public class QueueWithTwoStacks<T> {
