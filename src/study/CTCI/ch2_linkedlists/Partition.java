@@ -1,4 +1,4 @@
-package study.ch2_linkedlists;
+package study.CTCI.ch2_linkedlists;
 
 public class Partition {
 

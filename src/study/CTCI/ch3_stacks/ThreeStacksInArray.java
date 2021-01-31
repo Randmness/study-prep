@@ -1,4 +1,4 @@
-package study.ch3_stacks;
+package study.CTCI.ch3_stacks;
 
 
 //Stack: items are added in reverse

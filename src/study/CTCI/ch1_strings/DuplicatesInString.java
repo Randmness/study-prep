@@ -1,4 +1,4 @@
-package study.ch1_strings;
+package study.CTCI.ch1_strings;
 
 import java.util.Locale;
 

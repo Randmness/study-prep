@@ -1,4 +1,4 @@
-package study.ch3_stacks;
+package study.CTCI.ch3_stacks;
 
 import java.util.EmptyStackException;
 import java.util.Stack;
