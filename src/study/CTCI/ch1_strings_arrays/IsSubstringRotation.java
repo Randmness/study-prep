@@ -1,4 +1,4 @@
-package study.CTCI.ch1_strings;
+package study.CTCI.ch1_strings_arrays;
 
 public class IsSubstringRotation {
 

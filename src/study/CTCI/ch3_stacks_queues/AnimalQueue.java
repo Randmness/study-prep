@@ -1,4 +1,4 @@
-package study.CTCI.ch3_stacks;
+package study.CTCI.ch3_stacks_queues;
 
 import java.util.LinkedList;
 
