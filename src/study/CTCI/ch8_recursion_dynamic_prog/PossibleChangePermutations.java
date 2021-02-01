@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class PossibleChangePermutations {
 
     public static void main(String args[]) {
-        int change = 10;
+        int change = 8;
         int[] denominations = new int[] {25, 10, 5, 1};
         int[][] cache = new int[change+1][denominations.length];
         System.out.println("Number of permuations: "+ changePermutations(change, denominations, 0));
