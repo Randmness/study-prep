@@ -1,5 +1,7 @@
 package study.lc.linked_lists;
 
+import study.lc.support.ListNode;
+
 import java.util.LinkedList;
 
 public class Palindrome {

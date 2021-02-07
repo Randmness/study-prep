@@ -1,6 +1,6 @@
 package study.lc.linked_lists;
 
-import java.util.LinkedList;
+import study.lc.support.ListNode;
 
 public class OddEvenOrdering {
 

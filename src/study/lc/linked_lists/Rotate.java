@@ -1,5 +1,7 @@
 package study.lc.linked_lists;
 
+import study.lc.support.ListNode;
+
 public class Rotate {
 
     public ListNode rotateRight(ListNode head, int k) {

@@ -1,5 +1,7 @@
 package study.lc.linked_lists;
 
+import study.lc.support.ListNode;
+
 public class MergeTwoSortedLists {
 
     public static ListNode mergeTwoSortedLists(ListNode a, ListNode b) {
