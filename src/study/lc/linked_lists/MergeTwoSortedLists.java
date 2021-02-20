@@ -4,6 +4,7 @@ import study.lc.support.ListNode;
 
 public class MergeTwoSortedLists {
 
+    //O(n)
     public static ListNode mergeTwoSortedLists(ListNode a, ListNode b) {
         if (a == null) {
             return b;
@@ -22,6 +23,7 @@ public class MergeTwoSortedLists {
         }
     }
 
+    //O(1)
     public static ListNode mergeTwoSortedListsIter(ListNode a, ListNode b) {
         ListNode preHead = new ListNode(-1);
         ListNode previous = preHead;
@@ -30,7 +32,7 @@ public class MergeTwoSortedLists {
                 previous.next = a;
                 a = a.next;
             } else {
-                previous = b;
+                previous.next = b;
                 b = b.next;
             }
             previous = previous.next;
@@ -38,9 +40,9 @@ public class MergeTwoSortedLists {
 
 
         if (a != null) {
-            preHead.next = a;
+            previous.next = a;
         } else {
-            preHead.next = b;
+            previous.next = b;
         }
 
         return preHead.next;

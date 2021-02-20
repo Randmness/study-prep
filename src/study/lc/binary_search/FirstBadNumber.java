@@ -7,6 +7,8 @@ public class FirstBadNumber {
     }
 
 
+    //[1,2,3,4,5]
+    //[G,G,G,B,B]
     public int firstBadVersion(int n) {
         int start = 1, end = n;
         while (start < end) {
