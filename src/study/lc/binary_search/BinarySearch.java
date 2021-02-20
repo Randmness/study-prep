@@ -16,4 +16,20 @@ public class BinarySearch {
 
         return -1;
     }
+
+    public int searchRec(int[] nums, int start, int end, int target) {
+        if (start < end) return -1;
+
+        int middle = start + (end - start)/2;
+
+        if (nums[middle] > target) {
+            return searchRec(nums, start, middle-1, target);
+        }
+        else if (nums[middle] < target) {
+            return searchRec(nums, middle+1, end, target);
+        }
+        else {
+            return middle;
+        }
+    }
 }
