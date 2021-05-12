@@ -4,6 +4,7 @@ import java.util.*;
 
 public class LogSystem {
     private TreeMap<Long, Integer> logMap;
+
     public LogSystem() {
         this.logMap = new TreeMap<>();
     }
@@ -56,5 +57,4 @@ public class LogSystem {
 
         return Long.valueOf(preLong.toString());
     }
-}
 }
