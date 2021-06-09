@@ -5,6 +5,9 @@ import java.util.List;
 
 public class MissingRanges {
 
+    /*
+    https://leetcode.com/explore/interview/card/google/59/array-and-strings/3055/
+     */
     public List<String> findMissingRanges(int[] nums, int lower, int upper) {
         List<String> results = new ArrayList<>();
         if (nums.length == 0) {

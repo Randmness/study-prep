@@ -1,5 +1,7 @@
 package study.random;
 
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -29,6 +31,8 @@ public class LRUCache {
         } else if (cache.containsKey(key)) {
             cache.remove(key);
         }
+
+        LocalDateTime.now().truncatedTo(ChronoUnit.MINUTES);
 
         cache.put(key, value);
     }

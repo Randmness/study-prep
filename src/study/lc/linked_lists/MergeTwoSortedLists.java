@@ -4,6 +4,7 @@ import study.lc.support.ListNode;
 
 public class MergeTwoSortedLists {
 
+    //https://leetcode.com/explore/interview/card/google/60/linked-list-5/3065/
     //O(n)
     public static ListNode mergeTwoSortedLists(ListNode a, ListNode b) {
         if (a == null) {

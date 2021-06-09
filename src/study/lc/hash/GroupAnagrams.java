@@ -15,6 +15,7 @@ public class GroupAnagrams {
             if (!results.containsKey(wordValue)) {
                 results.put(wordValue, new ArrayList<>());
             }
+
             results.get(wordValue).add(word);
         }
 

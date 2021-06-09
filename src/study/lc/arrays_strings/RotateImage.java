@@ -6,6 +6,8 @@ public class RotateImage {
      * [123]        [147]       [741]
      * [456]    =>  [258]   =>  [852]
      * [789]        [369]       [963]
+     *
+     * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3052/
      * @param matrix
      */
     public void rotate(int[][] matrix) {

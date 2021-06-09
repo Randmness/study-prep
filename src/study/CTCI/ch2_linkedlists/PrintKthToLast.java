@@ -6,7 +6,7 @@ public class PrintKthToLast {
         LinkedListNode head = Util.generateRandomLL(10);
         Util.printNodes(head);
 
-        printKth(head, 1);
+        printKth(head, 2);
         System.out.println(retrieveKth(head, 1).data);
     }
 
