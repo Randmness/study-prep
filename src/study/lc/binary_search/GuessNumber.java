@@ -2,6 +2,7 @@ package study.lc.binary_search;
 
 public class GuessNumber {
 
+    //https://leetcode.com/problems/guess-number-higher-or-lower/
     int guess(int num) {
         return 0;
     };

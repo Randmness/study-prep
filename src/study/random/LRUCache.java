@@ -32,8 +32,6 @@ public class LRUCache {
             cache.remove(key);
         }
 
-        LocalDateTime.now().truncatedTo(ChronoUnit.MINUTES);
-
         cache.put(key, value);
     }
 }

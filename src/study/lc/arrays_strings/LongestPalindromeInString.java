@@ -2,6 +2,7 @@ package study.lc.arrays_strings;
 
 public class LongestPalindromeInString {
 
+    //https://leetcode.com/explore/featured/card/google/64/dynamic-programming-4/451/
     //O(n2) time, O(1) space
     public String longestPalindrome(String s) {
         if (s == null || s.length() == 0) return "";
